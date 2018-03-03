@@ -7,3 +7,8 @@ class ProductList extends React.Component {
 		);
 	}
 }
+
+ReactDMO.render(
+	<ProductList />,
+	document.getElementById('content')
+)
