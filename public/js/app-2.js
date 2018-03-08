@@ -8,8 +8,9 @@ class Product extends React.Component {
 				<div className='middle aligned content'>
 					<div className='header'>
 						<a>
-							{this.props.votes}
+							<i className='large caret up icon' />
 						</a>
+						{this.props.votes}
 					</div>
 					<div className='description'>
 						<a href={this.props.url}>
